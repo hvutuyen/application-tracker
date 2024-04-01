@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "application-tracker"
+version = "0.1.0"
+description = ""
+authors = ["Hoang Vu Tuyen <hoang.vutuyen@live.de>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.32.2"
+watchdog = "^4.0.0"
+st-gsheets-connection = "^0.0.4"
+geopy = "^2.4.1"
+pydeck = "^0.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
